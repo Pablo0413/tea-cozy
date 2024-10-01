@@ -1,0 +1,185 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Alef';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+ul,
+ol,
+p,
+h1,
+h2,
+h3 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    color: seashell;
+    top: 0;
+    background-color: black;
+    z-index: 10;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-item {
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.main-section {
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.section-header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.section-text {
+    text-align: center;
+    margin: 15px 0 10px;
+}
+
+.main-image-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 50px;
+    height: 700px;
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-block-mission {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+}
+
+.main-text {
+    margin-top: 60px;
+}
+
+.main-cards-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-item {
+    width: 300px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.card-image {
+    height: 200px;
+    width: 100%;
+
+}
+
+.card-text {
+    margin-top: 5px;
+}
+
+.location-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 100px 50px 0;
+    height: 550px;
+    overflow: hidden;
+}
+
+.location-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.location-block {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+.location-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.location-card-item {
+    min-width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+.location-card-item p {
+    margin: 30px 0;
+}
+
+.card-header {
+    margin-top: 20px;
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer p {
+    margin-left: 20px;
+}
